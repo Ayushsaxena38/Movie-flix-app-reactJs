@@ -7,7 +7,93 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.movie-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+  border : 2px solid violet;
+  overflow-y : auto;
+}
+.movieCard{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border : 2px solid black;
+  height : 30vh;
+  width : 50%;
+  background-color: whitesmoke;
+  margin : 5px;
+  /* min-width: 25vw; */
+}
+.movieCard .right {
+  width : 38%;
+  height: 100%;
+  /* border : 2px solid black; */
+}
+
+.movieCard .right .posterImg{
+  height: 100%;
+  width : 100%;
+}
+
+.movieCard .right img{
+  height : 100%;
+  width : 100%;
+}
+
+.movieCard .left {
+  height : 100%;
+  width : 55%;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
+  font : smaller;
+  /* text-align: left; */
+  font-size: small;
+}
+.title ,.plot, .price,.footer {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  /* border : 2px solid blue; */
+}
+
+
+.footer{
+  height : 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: medium;
+  flex-wrap: wrap;
+  /* position: relative; */
+}
+/* .imdb, .stars, .btns {
+  width : auto;
+} */
+.btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 1px solid royalblue; */
+}
+.btns button{
+  background-color: yellow;
+  width: 50%;
+  height : 5vh;
+  font-size: x-small;
+  padding : 2px;
+
+}
+.btns .red {
+  background-color: red;
+}
+
+.decrese-btn , .increse-btn {
+  cursor: pointer;
+  margin:2px;
 }
