@@ -97,3 +97,30 @@ body {
   cursor: pointer;
   margin:2px;
 }
+
+/* .nav{
+  padding: 5px;
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: thistle;
+} */
+
+/* .nav-cart-count{
+  margin-right: 10px;
+  position: relative;
+  /* border : 2px solid black;   
+}*/
+
+/* #cartIcon{
+  height : 50px;
+  width: auto;
+} */
+
+/* .cart-count{
+  position: absolute;
+  right : 10px;
+  color : darkblue;
+  font-weight:500;
+  font-size: large;
+} */

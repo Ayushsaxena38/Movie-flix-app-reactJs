@@ -1,7 +1,8 @@
 import MovieList from "./MovieList";
+import Navbar from "./Nav";
 function App() {
   return (<>
-            <h1>Movie App</h1>
+            < Navbar />
             <div className="App">
               <MovieList />
             </div>

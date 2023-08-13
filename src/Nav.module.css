@@ -1,0 +1,28 @@
+.nav{
+  padding: 5px;
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: thistle;
+}
+
+.navCartCount{
+  margin-right: 10px;
+  position: relative;
+   
+}
+
+.cartIcon{
+  height : 50px;
+  width: auto;
+}
+
+.cartCount{
+  position: absolute;
+  right : 10px;
+  color : darkblue;
+  font-weight:500;
+  font-size: large;
+  /* background-color: yellow; */
+  /* border-radius: 30%; */
+}
