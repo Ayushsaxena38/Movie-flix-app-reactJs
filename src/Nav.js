@@ -47,7 +47,6 @@ import styles from './Nav.module.css';
 //     }
 // }
 
-let count = 0;
 
 //Navbar component where css module are used
 class Navbar extends Component{
@@ -62,7 +61,7 @@ class Navbar extends Component{
                     </div>
                     <div className={styles.navCartCount}>
                         <img className={styles.cartIcon} alt = "Cart Icon" src = {cart} />
-                        <span className={styles.cartCount}>{count}</span>
+                        <span className={styles.cartCount}>{this.props.cartCount}</span>
                     </div>
                 </div>
             </>
